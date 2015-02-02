@@ -2,7 +2,7 @@ package com.android.demon;
 
 import com.android.demon.util.SystemUiHider;
 
-import com.example.service.PostionService;
+import com.example.service.LocationService;
 
 //import android.annotation.TargetApi;
 import android.app.Activity;
@@ -66,7 +66,7 @@ public class SampleHomeActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		setContentView(R.layout.activity_sample_home);
-		loactionService = new Intent(this, PostionService.class);
+		loactionService = new Intent(this, LocationService.class);
 		startService(loactionService);
 		// final View controlsView =
 		// findViewById(R.id.fullscreen_content_controls);

@@ -106,7 +106,7 @@
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
-		<service android:name="com.example.service.PostionService"></service>
+		<service android:name="com.example.service.LocationService"></service>
         <service
             android:name="com.radiusnetworks.ibeacon.service.IBeaconService"
             android:enabled="true"

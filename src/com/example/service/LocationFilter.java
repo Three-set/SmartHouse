@@ -21,7 +21,7 @@ import com.example.zhihuijiaju.Info;
 import com.example.zhihuijiaju.InfoFactory;
 import com.radiusnetworks.ibeacon.IBeacon;
 
-public class IBeaconLocationThread extends Thread {
+public class LocationFilter extends Thread {
 
 	private Context myContext;
 	private Handler handlerService, handlerIbeaconThread;
@@ -30,7 +30,7 @@ public class IBeaconLocationThread extends Thread {
 	private int major;
 	private int minor , lastminor;
 	private ArrayList<Info> lists;
-	public IBeaconLocationThread(Context context, Handler handlerService) {
+	public LocationFilter(Context context, Handler handlerService) {
 		myContext = context;
 		this.handlerService = handlerService;
 		lists=InfoFactory.getInfoslist();

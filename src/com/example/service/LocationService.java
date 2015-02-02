@@ -25,11 +25,11 @@ import com.radiusnetworks.ibeacon.IBeaconManager;
 import com.radiusnetworks.ibeacon.RangeNotifier;
 import com.radiusnetworks.ibeacon.Region;
 
-public class PostionService extends Service implements IBeaconConsumer {
+public class LocationService extends Service implements IBeaconConsumer {
 
 	private IBeaconManager ibeaconmanager = IBeaconManager.getInstanceForApplication(this);
 	private Region region = new Region("mymonitor", "d26d197e-4a1c-44ae-b504-dd7768870564", null, null);
-	private IBeaconLocationThread ibeaconLocationThread;
+	private LocationFilter ibeaconLocationThread;
 	private Handler handlerIBeaconThread;
 
 	@Override
@@ -60,7 +60,7 @@ public class PostionService extends Service implements IBeaconConsumer {
 	public void onCreate() {
 		super.onCreate();
 		ibeaconmanager.bind(this);
-		ibeaconLocationThread = new IBeaconLocationThread(getApplicationContext(), handlerService);
+		ibeaconLocationThread = new LocationFilter(getApplicationContext(), handlerService);
 		
 	}
 
