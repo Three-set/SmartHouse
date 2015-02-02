@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Demon_home</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="desc">description</string>
+	<string name="control_light">"灯光控制"</string>
+	<string name="control_curtain">"窗帘控制"</string>
+	<string name="control_projector">"投影仪"</string>
+	<string name="control_music">"背景音乐"</string>
+	<string name="control_safe">"安防控制"</string>
+	<string name="control_tv">"电视控制"</string>
+	<string name="control_tvbox">"机顶盒控\n制"</string>
+	<string name="control_blue">"蓝光播放\n器"</string>
+	<string name="control_condition">"空调控制"</string>
+	<string name="home_showroom">"展示厅"</string>
+	<string name="home_attic">"阁楼办公\n室"</string>
+	<string name="home_bathroom">"浴室"</string>
+	<string name="home_bedroom">"卧室"</string>
+	<string name="home_kitchen">"厨房间"</string>
+	<string name="home_reception">"前台"</string>
+	<string name="home_smallgarden">"小花园"</string>
+	<string name="home_waitreception">"接待处"</string>
+	<string name="home_attic01">"阁楼办公室"</string>
+	<string name="home_choose">"房间选择"</string>
+	<string name="sample_home_textview">"常用功能"</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hint">位置感知...</string>
+    <string name="locationimage">位置处的图片</string>
+    <string name="title">iHouse</string>
+	<string name="sample_home_config">"网络配置"</string>
+	<string name="sample_home_exit">"退出"</string>
+	<string name="sample_home_ok">"确认"</string>
+	<string name="sample_home_cancle">"取消"</string>
+</resources>
