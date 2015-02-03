@@ -17,8 +17,8 @@ import android.util.Log;
 import android.widget.Toast;
 
 import com.android.demon.util.AppConstants;
-import com.example.zhihuijiaju.Info;
-import com.example.zhihuijiaju.InfoFactory;
+import com.example.map.Info;
+import com.example.map.InfoFactory;
 import com.radiusnetworks.ibeacon.IBeacon;
 
 public class LocationFilter extends Thread {

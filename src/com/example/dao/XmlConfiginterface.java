@@ -7,5 +7,5 @@ public interface XmlConfiginterface {
 	public int getRoomName(int major,int minor);
 	public String getIP();
 	public int getPort();
-	
+	//
 }

@@ -1,6 +1,6 @@
 package com.android.demon;
 
-import com.example.zhihuijiaju.MapActivity;
+import com.example.map.MapActivity;
 
 import android.app.Activity;
 import android.content.Intent;

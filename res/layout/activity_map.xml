@@ -3,7 +3,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical"
-    tools:context="com.example.zhihuijiaju.MapActivity" >
+    tools:context="com.example.map.MapActivity" >
 
     <TextView
         android:id="@+id/textview2"
@@ -23,12 +23,12 @@
         android:layout_height="0dp"
         android:layout_weight="0.97" >
 
-        <com.example.zhihuijiaju.CameraPreview
+        <com.example.map.CameraPreview
             android:id="@+id/camerapreview"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
 
-        <com.example.zhihuijiaju.ARView
+        <com.example.map.ARView
             android:id="@+id/arview"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
